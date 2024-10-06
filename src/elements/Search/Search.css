@@ -1,0 +1,21 @@
+input {
+    margin-top: 1vh;
+    height: var(--height);
+    font-family: var(--font-fam);
+    border: 0;
+    color: white;
+    font-size: 1.8rem;
+  }
+
+  input[type="search"] {
+    outline: 0;
+    width: 50%;
+    background: var(--color-light);
+    padding: 0 1.6rem;
+    border-radius: var(--rad);
+    appearance: none; 
+    transition: all var(--dur) var(--bez);
+    transition-property: width, border-radius;
+    z-index: 1;
+    position: relative;
+  }

@@ -1,0 +1,15 @@
+.maininfo {
+    width: 100%;
+  }
+
+  .maintab {
+    overflow: hidden;
+    margin: 5%;
+    /*grid-template-columns: repeat(auto-fill, minmax(50vw, 100vh));*/
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 43vh;
+    padding: 5%;
+  }
+
+

@@ -1,0 +1,42 @@
+.Header {
+    margin: 1vh 1vh 1vh 1vh;
+    border-radius: 5vh;
+    height: 8vh;
+    cursor: pointer;
+    background-color: #181818;
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 2%;
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    min-height: 56px;
+  }
+
+  img {
+    width: auto;
+    height: 100%;
+  }
+
+  .Header:hover {
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    background-color: #202020;
+    
+  }
+
+  .headerbutton {
+    font-size: calc(14 + 3em);
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+  }
+
+  .headerbutton:hover {
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    font-size: calc(8px + 2vmin);
+  }

@@ -1,0 +1,17 @@
+.textinmain {
+  position: relative;
+    text-align: left;
+    font-size: 4vw;
+    margin: 0;
+    width: 70%;
+    height: 20vh;
+  }
+
+  .undertextinmain {
+    position: relative;
+    text-align: left;
+    font-size: 2vw;
+    margin: 0;
+    width: 80%;
+    height: 20vh;
+  }
