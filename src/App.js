@@ -1,22 +1,19 @@
 import './App.css';
-import Header from './elements/Header/Header';
-import Footer from './elements/Footer/Footer';
-import { useState } from 'react';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer'
+import { Routes, Route, Link } from 'react-router-dom'
 
-import Maintab from './elements/Tabs/Main/maintab';
-import ProductsTab from './elements/Tabs/Products/products';
+import {MainTab} from './components/Tabs/Main/maintab'
+import {ProductsTab} from './components/Tabs/Products/products'
 
 export default function App() {
-  const [tab, setTab] = useState('main')
   return (
     <div className="App">
-      <Header onChange={(current) => setTab(current)}/>
-      {tab === 'main' && <>
-        <Maintab/>
-      </>}
-      {tab === 'products' && <>
-        <ProductsTab/>
-      </>}
+      <Header/>
+      <Routes>  
+        <Route path="/" element={<MainTab />}/>
+        <Route path="/products" element={<ProductsTab />}/>
+      </Routes>
       <Footer/>
     </div>
   );

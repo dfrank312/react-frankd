@@ -1,0 +1,41 @@
+.card {
+    border-radius: calc(12px + 2vmin);
+    text-align: center;
+    padding: 2%;
+    height: 100%;
+    width: 20vw;
+    max-width: 20vw;
+    min-width: 20vw;
+    margin-right: 5%;
+    background-color: rgb(39, 39, 39);
+    margin-top: 3%;
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+
+.photo {
+    border-radius: calc(12px + 2vmin);
+    background-color: rgb(136, 136, 136);
+    height: 40vh;
+}
+
+.name {
+    font-size: calc(7px + 2vmin);
+    line-height: 7vh;
+}
+
+.price {
+    font-size: calc(7px + 2vmin);
+    line-height: 4vh;
+}
+
+.description {
+    font-size: calc(8px + 1vmin);
+}
+
+.infoholder {
+    justify-items: center;
+    justify-content: center;
+    padding: 3%;
+}

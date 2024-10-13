@@ -1,0 +1,12 @@
+[{"indexp":0, "namep":"Яблоки", "photourlp":"./logo.png", "pricep":550, "descriptionp":"Зеленые"},
+ {"indexp":1, "namep":"Мясо", "photourlp":"/fgdfgdf/dsfds/photo2.png", "pricep":320, "descriptionp":"Курица"},
+ {"indexp":2, "namep":"Шоколад", "photourlp":"/fgdfgdf/dsfds/photo2.png", "pricep":5432, "descriptionp":"Alpen Gold"},
+ {"indexp":3, "namep":"Арбуз", "photourlp":"/fgdfgdf/dsfds/photo2.png", "pricep":56453, "descriptionp":"Астраханский"},
+ {"indexp":4, "namep":"Сок", "photourlp":"/fgdfgdf/dsfds/photo2.png", "pricep":3543, "descriptionp":"Яблочный"},
+ {"indexp":5, "namep":"Печенье", "photourlp":"/fgdfgdf/dsfds/photo2.png", "pricep":234, "descriptionp":"С орехами"},
+ {"indexp":6, "namep":"Рулет", "photourlp":"/fgdfgdf/dsfds/photo2.png", "pricep":5662, "descriptionp":"Клубничный"},
+ {"indexp":7, "namep":"Хлеб", "photourlp":"/fgdfgdf/dsfds/photo2.png", "pricep":3123, "descriptionp":"Нарезной"},
+ {"indexp":8, "namep":"Молоко", "photourlp":"/fgdfgdf/dsfds/photo2.png", "pricep":640, "descriptionp":"Жирность 2.5%"},
+ {"indexp":9, "namep":"Колбаса", "photourlp":"/fgdfgdf/dsfds/photo2.png", "pricep":110, "descriptionp":"Сибирские колбасы"},
+ {"indexp":10, "namep":"Ананас", "photourlp":"/fgdfgdf/dsfds/photo2.png", "pricep":2320, "descriptionp":"Сладкий"},
+ {"indexp":1, "namep":"Мёд", "photourlp":"/fgdfgdf/dsfds/photo2.png", "pricep":3240, "descriptionp":"Алтайский"}]
