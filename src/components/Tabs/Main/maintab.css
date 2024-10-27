@@ -1,16 +1,21 @@
 .maininfo {
     width: 100%;
+    height: 20vh;
+    text-align: center;
   }
 
   .maintab {
-    max-width: 120vh;
-    overflow: hidden;
-    margin: 5%;
-    /*grid-template-columns: repeat(auto-fill, minmax(50vw, 100vh));*/
     flex-wrap: wrap;
-    width: 100vw;
-    height: 43vh;
-    padding: 5%;
+    width: 80%;
+    height: auto;
+    padding: 10% 10% 3% 10%;
   }
 
-
+  @media (min-width: 300px) and (max-width: 1000px){ 
+  .maintab {
+    flex-wrap: wrap;
+    width: 80%;
+    height: auto;
+    padding: 10% 10% 10% 10%;
+  }
+  }

@@ -1,7 +1,8 @@
 import Infoblock from './infoblock/infoblock'
 import './maintab.css'
-import CButton from '../../Button/Button'
+import CBigButton from '../../Button/BigButton'
 import { Link } from 'react-router-dom'
+import { InfoForm } from './infoform/infoform'
 
 const linkstyle = {
     textDecoration: "none",
@@ -13,8 +14,9 @@ const MainTab = () => {
         <div className="maintab">
             <Infoblock/>
             <Link style={linkstyle} to="/products">
-                <CButton name="К ПОКУПКАМ"/>
+                <CBigButton name="К ПОКУПКАМ"/>
             </Link>
+            <InfoForm/>
         </div>
     )
 }

@@ -1,18 +1,21 @@
 .Footer {
-    width: 100%;
-    height: 10vh;
-    font-size: 1.7vh;
-    display: flex;
-    flex-wrap: wrap;
-    line-height: 5vh;
+    background-color: #181818;
+    padding: 1%;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-flow: row wrap;
+    display: flex; 
+    width: 98%;
+    bottom: 0;
 }
 
+:after {
+    content:'';
+    width:100%;
+    order:0;
+  }
+
 .footerbatton {
-    float: left;
-    height: 5vh;
-    line-height: 5vh;
-    align-items: center;
-    margin-left: 5%;   
+    line-height: 3em;
     cursor: pointer;
-    margin-bottom: 1vh;
 }

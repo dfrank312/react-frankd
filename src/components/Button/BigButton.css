@@ -1,0 +1,31 @@
+button {
+    background-color: #b4b4b4;
+      margin-top: 5%;
+      padding: 2em 4em 2em 4em;
+      border: none;
+      border-radius: 1.4em;
+      cursor: pointer;
+      transition: all 0.3s;
+      font-family: "Comfortaa", system-ui;
+      font-optical-sizing: auto;
+      font-weight: 700;
+      font-style: normal;
+      font-size: 1.2em;
+      display: block;
+    margin:0 auto;
+    align-items:center;
+    }
+    
+    button:hover {
+      opacity: 0.8;
+    }
+    
+    button:disabled {
+      cursor: not-allowed;
+    }
+    
+    button.active {
+      background: #0c0c0c;
+      color: #dddddd;
+    }
+    

@@ -1,13 +1,13 @@
 .headerholder {
   display: flex;
-  width: 99vw;
+  width: 98%;
 }
 
 .Header {
-    width: 100vw;
+    width: 100000%;
     margin: 1vh 1vh 1vh 1vh;
     border-radius: 5vh;
-    height: 4.0vw;
+    height: 3em;
     cursor: pointer;
     background-color: #181818;
     display: flex;
@@ -22,10 +22,10 @@
   .logoholder {
     margin: 1vh 1vh 1vh 1vh;
     border-radius: 5vh;
-    height: 4.0vw;
+    height: auto;
     cursor: pointer;
     gap: 2%;
-    width: 90vw;
+    min-width: 50px;
     margin-left: 1vh;
     margin-top: 1vh;
     max-width: calc(100vw - 95.9vw);
@@ -48,7 +48,7 @@
   }
 
   .headerbuttons {
-    line-height: 8vh;
+    line-height: 3em;
     display: flex;
   }
 
@@ -58,12 +58,12 @@
     -webkit-transition: all 0.7s ease;
     -moz-transition: all 0.7s ease;
     transition: all 0.7s ease;
-    font-size: calc(3px + 2vmin);
+    font-size: calc(1em + 10%);
   }
 
   .headerbutton:hover {
     -webkit-transition: all 0.7s ease;
     -moz-transition: all 0.7s ease;
     transition: all 0.7s ease;
-    font-size: calc(8px + 2vmin);
+    font-size: calc(1em + 30%);
   }

@@ -1,9 +1,10 @@
 .maintext {
-  width: 60vw;
-  text-align:left;
-  font-size: calc(18px + 3.8vmin);
+  margin: 0em 0em 0em 0em;
+  line-height: 100%;
+  font-size: calc(20px + 8vmin);
 }
 
 .undertext {
+  margin: 0;
   font-size: calc(12px + 2vmin);
 }

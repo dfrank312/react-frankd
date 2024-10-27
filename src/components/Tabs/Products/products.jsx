@@ -27,9 +27,10 @@ const ProductsTab = () => {
         return () => clearTimeout(Debounce);
     }, [searchTerm] );
 
+    
     return (
         <div className="main">
-            <h1>СПИСОК ТОВАРОВ</h1>
+            <h1 className='list'>СПИСОК ТОВАРОВ</h1>
             <input value={searchTerm} autoFocus type="search" autoComplete="off" placeholder="Поиск..." onChange={(e) => setSearchTerm(e.target.value)}></input>
             <div className="items">
             {productsList.map((items) => {

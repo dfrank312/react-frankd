@@ -1,11 +1,7 @@
-body {
-    max-width: 181vh;
-}
-
 .main {
-    padding: 5%;
-    width: 100%;
-    height: 100%;
+    padding: 2%;
+    width: 96%;
+    min-height: calc(100vh - 24vh);
 }
 
 input {
@@ -15,11 +11,12 @@ input {
     border: 0;
     color: white;
     font-size: 1.8rem;
+    padding-bottom: 5%;
   }
 
   input[type="search"] {
     outline: 0;
-    width: 50%;
+    width: 100%;
     background: var(--color-light);
     padding: 0 1.6rem;
     border-radius: var(--rad);
@@ -30,23 +27,40 @@ input {
     position: relative;
   }
 
-h1 {
-    font-size: 2vw;
-}
+  input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-results-button, input[type="search"]::-webkit-search-results-decoration { display: none; }
 
-.items {
-    padding: 2%;
+@media all and (min-width: 500px) {
+  .items {
+    justify-content: center;
+    flex-direction: column;
     flex-flow: row wrap;
     display: flex; 
     justify-content: center; 
-    align-items: center;
     width: 100%;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+  }
+
+  .list {
+    font-size: 10px;
+  }
 }
 
+.items {
+  padding-left: 3%;
+  flex-flow: row wrap;
+  display: flex;  
+  width: 97%;
+}
+
+
 .items:after {
-    content:'';
-    width:100%;
-    order:0;
-  }
+  content:'';
+  width:100%;
+  order:0;
+}
+
+.list {
+  text-align: center;
+  font-size: 1.7em;
+}

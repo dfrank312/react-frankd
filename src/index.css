@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
 
 body {
-  max-width: 100%;
+  border-color: red;
   margin: 0;
   font-family: "Comfortaa", system-ui;
   font-optical-sizing: auto;
@@ -10,6 +10,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+/* * { border: 1px solid #961e1e; } */
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Comfortaa',

@@ -2,13 +2,13 @@ import './infoblock.css'
 
 export default function Infoblock() {
     const infoText = {
-        text1: 'ДЕШЕВЫЕ ПРОДУКТЫ С ДОСТАВКОЙ ПО ГОРОДУ',
-        text2: 'Скидка 20% новым клиентам по промокоду «NEW»'
+        text1: 'САМОЛЕТ',
+        text2: 'Сервис экспресс-доставки'
     }
     return (
             <div class="maininfo">
-                <p className='maintext'>{infoText.text1}</p>
-                <p className='undertext'>{infoText.text2}</p>
+                <h1 className='maintext'>{infoText.text1}</h1>
+                <h1 className='undertext'>{infoText.text2}</h1>
             </div>
     )
   }

@@ -1,0 +1,29 @@
+.infoform {
+ padding: 10%;
+}
+
+.adcard {
+    margin-top: 8%;
+    padding: 3% 5% 5% 7%;
+    border-radius: 2em;
+    background-color: #181818;
+    height: auto;
+}
+@media (min-width: 300px) and (max-width: 1000px){ 
+    .infoform {
+        padding: 10% 0% 10% 0%;
+       }
+
+}
+.maintextoncard {
+    line-height: 1.3em;
+    padding-bottom: 1%;
+}
+
+.text {
+    border-radius: 2em;
+    text-align: center;
+    padding: 5%;
+    background-color: rgba(0, 0, 0, 0.226);
+    font-size: 1em;
+}
