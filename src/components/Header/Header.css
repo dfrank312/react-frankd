@@ -39,14 +39,6 @@
     width: 100%;
   }
 
-  .Header:hover {
-    -webkit-transition: all 0.7s ease;
-    -moz-transition: all 0.7s ease;
-    transition: all 0.7s ease;
-    background-color: #202020;
-    
-  }
-
   .headerbuttons {
     line-height: 3em;
     display: flex;
@@ -62,8 +54,8 @@
   }
 
   .headerbutton:hover {
-    -webkit-transition: all 0.7s ease;
-    -moz-transition: all 0.7s ease;
-    transition: all 0.7s ease;
-    font-size: calc(1em + 30%);
+    opacity: 0.6;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
   }

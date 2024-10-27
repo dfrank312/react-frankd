@@ -2,7 +2,7 @@ import './infoblock.css'
 
 export default function Infoblock() {
     const infoText = {
-        text1: 'САМОЛЕТ',
+        text1: 'САМОЛЁТ',
         text2: 'Сервис экспресс-доставки'
     }
     return (
