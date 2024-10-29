@@ -6,7 +6,7 @@ export default function Infoblock() {
         text2: 'Сервис экспресс-доставки'
     }
     return (
-            <div class="maininfo">
+            <div className="maininfo">
                 <h1 className='maintext'>{infoText.text1}</h1>
                 <h1 className='undertext'>{infoText.text2}</h1>
             </div>
