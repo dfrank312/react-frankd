@@ -32,10 +32,10 @@
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   transition: all 1s ease;
-  -webkit-transform: scale(1.27);
-  -moz-transform: scale(1.27);
-  -o-transform: scale(1.27);
-  transform: scale(1.27);
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  transform: scale(1.25);
 }
 
 .undertext {
